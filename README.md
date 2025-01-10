@@ -1,35 +1,37 @@
-# **Library Management System - Book Management Service**
 
-Proyek ini adalah **Book Management Service** dari sistem manajemen perpustakaan, dibangun menggunakan **CodeIgniter 4 (CI4)**. Layanan ini memungkinkan admin perpustakaan untuk mengelola koleksi buku, seperti menambahkan, mengedit, melihat, dan menghapus buku. Sistem ini juga dilengkapi autentikasi dan otorisasi untuk memastikan keamanan akses.
+# Library Management System
+## Features
 
----
+### Authentication & Authorization
+- User login and logout.
+- Role-based access control (e.g., Admin, User).
 
-## **Fitur**
-- **Authentication & Authorization**:
-  - Pengguna harus login untuk mengakses layanan.
-  - Hanya admin yang dapat menambah, mengedit, dan menghapus buku.
-- **Manajemen Buku**:
-  - Tambahkan, ubah, lihat, dan hapus data buku.
-  - Data buku meliputi judul, pengarang, kategori, deskripsi, dan status (*available* atau *borrowed*).
-- **Endpoint RESTful**:
-  - CRUD operasi sesuai dengan standar RESTful API.
+### Book Management
+- List all books.
+- Add, edit, and delete books (admin-only features).
+- Track book availability and borrowing status.
 
----
+### Borrower Management
+- View a list of borrowers.
+- Borrow books by selecting available titles.
+- Return borrowed books.
 
-## **Persyaratan Sistem**
-- **PHP** versi 7.4 atau lebih baru dengan ekstensi:
-  - `pdo`, `pdo_mysql`, `mbstring`, `json`
-- **Composer** untuk pengelolaan dependensi.
-- **MySQL** sebagai database.
-- **PHP CLI server** untuk menjalankan aplikasi (tidak perlu XAMPP).
+### Dashboard
+- Role-specific dashboards for users and admins.
 
----
+## Installation
+
+### Requirements
+- PHP 7.4 or higher.
+- Composer.
+- CodeIgniter 4 framework.
+- MySQL or PostgreSQL database.
 
 ## **Langkah-Langkah Instalasi**
 1. **Clone Repository**
    Clone repository ini ke komputer lokal Anda:
    ```bash
-   git clone https://github.com/your-repository/library-book-management.git
+   git clone https://github.com/your-repository/library-final.git
    cd library-book-management
    ```
 
@@ -53,74 +55,93 @@ Proyek ini adalah **Book Management Service** dari sistem manajemen perpustakaan
    ```
    Aplikasi dapat diakses di `http://localhost:8080/books`.
 
----
+## Application Structure
 
-## **Struktur Endpoint API**
+### Controllers
 
-### **Authentication**
-- `POST /authenticate` - Login pengguna.
-- `GET /logout` - Logout pengguna.
+#### AuthController
+- Handles user authentication and registration.
+- Methods:
+  - `login`: Displays the login form.
+  - `authenticate`: Validates credentials and logs in the user.
+  - `logout`: Logs out the user.
+  - `register`: Displays the registration form.
+  - `storeUser`: Saves new user accounts.
 
-### **Books**
-- `GET /books` - Menampilkan daftar buku.
-- `POST /books/store` - Menambahkan buku baru (*hanya admin*).
-- `GET /books/edit/{id}` - Mengedit data buku (*hanya admin*).
-- `POST /books/update/{id}` - Memperbarui data buku (*hanya admin*).
-- `DELETE /books/{id}` - Menghapus buku (*hanya admin*).
+#### BooksController
+- Manages book records.
+- Methods:
+  - `index`: Lists all books.
+  - `create`: Displays the form for adding a new book (admin-only).
+  - `store`: Saves a new book to the database (admin-only).
+  - `edit`: Displays the form for editing a book (admin-only).
+  - `update`: Updates book details (admin-only).
+  - `delete`: Deletes a book (admin-only).
+  - `trackBook`: Displays book borrowing details.
 
----
+#### BorrowerController
+- Manages book borrowing and returns.
+- Methods:
+  - `listBorrowers`: Lists all borrower records.
+  - `create`: Displays the form for borrowing a book.
+  - `store`: Saves borrower details and updates book status.
+  - `returnBook`: Handles book return and updates the status.
 
-## **Contoh Request**
-### **Menghapus Buku**
-**Request:**
-```bash
-DELETE /books/1 HTTP/1.1
-Host: localhost:8080
-Authorization: Bearer <your-session-token>
-```
+#### DashboardController
+- Displays a role-specific dashboard.
 
-**Response:**
-```json
-{
-  "success": true,
-  "message": "Book deleted successfully."
-}
-```
+### Routes
+Defined in `app/Config/Routes.php`. Key routes include:
 
----
+#### Authentication
+- `GET /login`: Displays the login form.
+- `POST /authenticate`: Authenticates the user.
+- `GET /logout`: Logs out the user.
+- `GET /register`: Displays the registration form.
+- `POST /register`: Registers a new user.
 
-## **File yang Disertakan**
-- **Kode Aplikasi**: Semua file di folder `app/`.
-- **File Konfigurasi Penting**:
-  - `composer.json` dan `composer.lock`
-  - `.env.example`
-- **File Migrasi Database**: Terletak di `app/Database/Migrations/`.
+#### Dashboard
+- `GET /dashboard`: Displays the dashboard for logged-in users.
 
-**File yang Tidak Disertakan:**
-- `.env` asli untuk melindungi informasi sensitif.
-- Folder `writable/` yang berisi log dan cache runtime.
+#### Books
+- `GET /books`: Lists all books.
+- `GET /books/create`: Displays the form to add a new book (admin-only).
+- `POST /books/store`: Saves a new book to the database (admin-only).
+- `GET /books/edit/(:num)`: Displays the form to edit a book (admin-only).
+- `POST /books/update/(:num)`: Updates a book's details (admin-only).
+- `DELETE /books/(:num)`: Deletes a book (admin-only).
+- `GET /books/track/(:num)`: Displays borrowing details for a book.
 
----
+#### Borrowers
+- `GET /borrowers`: Lists all borrower records.
+- `GET /borrowers/create`: Displays the form to borrow a book.
+- `POST /borrowers`: Saves a new borrower record.
+- `POST /borrowers/return/(:num)`: Handles returning a borrowed book.
 
-## **Akses ke Aplikasi**
-- **Database**:
-  - Host: `mysql-1e73275c-tst-01.h.aivencloud.com`
-  - Port: `21959`
-  - Nama Database: `defaultdb`
-  - Username: `avnadmin`
-  - Password: `AVNS__A_pxyQwbTPWRVRmbcF`
-- **Aplikasi Dapat Dijalankan di `http://localhost:8080`**
+## Usage
 
----
+### Admin Features
+- Log in as an admin.
+- Add, edit, and delete books.
+- View and manage borrower records.
 
-## **Demo Video**
-Demo cara kerja aplikasi ini dapat ditemukan di YouTube:
-- [Link Video Demo](https://youtu.be/your-demo-video-link)
+### User Features
+- Log in as a user.
+- Borrow books from the available list.
+- Return borrowed books.
 
----
+## Validation Rules
+- User registration:
+  - Username: Required, unique, minimum 3 characters.
+  - Password: Required, minimum 6 characters.
+  - Role: Must be `user` or `admin`.
+- Book management:
+  - Title, Author, and Category: Required, minimum 3 characters.
+  - Status: Must be `available` or `borrowed`.
+- Borrower management:
+  - Name: Required, minimum 3 characters.
+  - Book ID: Must reference an existing book.
+  - Borrow Date, Return Date: Valid date format.
 
-## **Kontributor**
-- **[Muhammad Yaafi Wasesa Putra]**: Layanan Manajemen Buku
 
 
->>>>>>> 690a022f81ba0de42ddbb83229e1bcba986cc211
