@@ -1,0 +1,114 @@
+INFO - 2025-01-10 07:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:36:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:37:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:38:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:38:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:39:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:40:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:40:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 07:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:04:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:25:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:26:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-01-10 10:26:43 --> Error connecting to the database: mysqli_sql_exception: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\matth\Downloads\interasi_tst\system\Database\MySQLi\Connection.php:186
+Stack trace:
+#0 C:\Users\matth\Downloads\interasi_tst\system\Database\MySQLi\Connection.php(186): mysqli->real_connect()
+#1 C:\Users\matth\Downloads\interasi_tst\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 C:\Users\matth\Downloads\interasi_tst\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\matth\Downloads\interasi_tst\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\matth\Downloads\interasi_tst\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\matth\Downloads\interasi_tst\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#6 C:\Users\matth\Downloads\interasi_tst\app\Controllers\BorrowerController.php(19): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\matth\Downloads\interasi_tst\system\CodeIgniter.php(933): App\Controllers\BorrowerController->listBorrowers()
+#8 C:\Users\matth\Downloads\interasi_tst\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#9 C:\Users\matth\Downloads\interasi_tst\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#10 C:\Users\matth\Downloads\interasi_tst\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\matth\Downloads\interasi_tst\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#12 C:\Users\matth\Downloads\interasi_tst\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#13 C:\Users\matth\Downloads\interasi_tst\system\rewrite.php(44): require_once('...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond in C:\Users\matth\Downloads\interasi_tst\system\Database\MySQLi\Connection.php:231
+Stack trace:
+#0 C:\Users\matth\Downloads\interasi_tst\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 C:\Users\matth\Downloads\interasi_tst\system\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\matth\Downloads\interasi_tst\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+#3 C:\Users\matth\Downloads\interasi_tst\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\matth\Downloads\interasi_tst\system\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+#5 C:\Users\matth\Downloads\interasi_tst\app\Controllers\BorrowerController.php(19): CodeIgniter\BaseModel->findAll()
+#6 C:\Users\matth\Downloads\interasi_tst\system\CodeIgniter.php(933): App\Controllers\BorrowerController->listBorrowers()
+#7 C:\Users\matth\Downloads\interasi_tst\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\matth\Downloads\interasi_tst\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\matth\Downloads\interasi_tst\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\matth\Downloads\interasi_tst\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+#11 C:\Users\matth\Downloads\interasi_tst\public\index.php(56): CodeIgniter\Boot::bootWeb()
+#12 C:\Users\matth\Downloads\interasi_tst\system\rewrite.php(44): require_once('...')
+#13 {main}
+CRITICAL - 2025-01-10 10:26:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+[Method: GET, Route: borrowers]
+in SYSTEMPATH\Database\BaseConnection.php on line 467.
+ 1 SYSTEMPATH\Database\BaseConnection.php(616): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll()
+ 5 APPPATH\Controllers\BorrowerController.php(19): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\BorrowerController->listBorrowers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\matth\\Downloads\\interasi_tst\\public\\index.php')
+INFO - 2025-01-10 10:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:28:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:28:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-01-10 10:30:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-10 10:30:08 --> CodeIgniter\Router\Exceptions\RouterException: The namespace delimiter is a backslash (\), not a slash (/). Route handler: "\App\Controllers\BorrowerController@returnBook/$1"
+[Method: POST, Route: borrowers/return/4]
+in SYSTEMPATH\Router\Router.php on line 492.
+ 1 SYSTEMPATH\Router\Router.php(492): CodeIgniter\Router\Exceptions\RouterException::forInvalidControllerName()
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->checkRoutes()
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest()
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter()
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb()
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\matth\\Downloads\\interasi_tst\\public\\index.php')
